@@ -19,8 +19,8 @@
 </style>
 </head>
 <body class="font bg-red-400">
-               <header class=" bg-white mr-24 ml-24 mt-5 text-center rounded-lg p-2">
-                <nav>
+               <header>
+                <nav class=" bg-white mr-10 ml-10 mt-5 text-center rounded-lg p-2">
                                 <!-- main parent -->
                                 <div class="flex flex-row justify-between">
                                                 <!-- second parent -->
@@ -47,19 +47,21 @@
                                 </div>
                 </nav>
                </header> 
-               <main class="mr-24 ml-24 bg-white mt-7 rounded-2xl">
+               <main class="mr-10 ml-10  mt-7 rounded-2xl">
                 <!-- Discover New section  -->
-                 <section>
+                 <section class=" rounded-2xl">
+                  <div class="flex flex-row justify-between">
+                  <div class=" mt-2 bg-white rounded-2xl">
                                 <!-- main parent -->
-                                 <div class="flex flex-row justify-between">
+                                 <div class="flex flex-row justify-between gap-3 p-2">
                                                 <!-- first child parent -->
                                                 <div class="flex flex-row gap-5 bg-[#F4F7FF] p-5 rounded-xl mx-auto my-auto mt-5">
                                                                 <div class="bg-white rounded-full w-16 h-16 p-5">
                                                                                 <img src="../assets/checkbox.png" alt="">
                                                                 </div>
                                                                 <div>
-                                                                                <p class="font-medium text-lg text-[#00303C]">Task Assigned</p>
-                                                                                <p class="text-3xl font-bold text-[#00303C]">05</p>
+                                                                                <p class="font-medium text-sm text-[#00303C]">Task Assigned</p>
+                                                                                <p class="text-2xl font-bold text-[#00303C]">05</p>
                                                                 </div>
                                                 </div>
 
@@ -78,13 +80,127 @@
                                                                                 <img src="../assets/calender.png" alt="">
                                                                 </div>
                                                                 <div>
-                                                                                <p class="font-medium text-lg text-[#00303C]">Wed,</p>
-                                                                                <p class="text-xl font-bold text-[#00303C]">Jul 28 2025</p>
+                                                                                <p class="font-medium text-sm text-[#00303C]">Wed,</p>
+                                                                                <p class="text-lg font-bold text-[#00303C]">Jul 28 2025</p>
                                                                 </div>
                                                 </div>
 
                                  </div>
+                                  <!-- Main Card Section  -->
+                 
+                  <!-- Main Parent Div -->
+                                  <div class="bg-white p-6 grid grid-cols-3 gap-5 rounded-2xl">
+                                    <div class="bg-[#F4F7FF] space-y-2 rounded-2xl p-2">
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-24 text-[#00303C]">ShopEase</p>
+                                      <h2 class="font-medium text-2xl text-[#00303C]">Fix Mobile Button Issue </h2>
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-72">Debug using Chrome DevTools, check for overlapping...</p>
+                                      <!-- first child parent div -->
+                                      <div class="flex flex-row justify-between items-center space-y-2 ">
+                                        <div>
+                                          <p class="text-[12px] font-normal">Deadline</p>
+                                          <p class="text-[#00303C] text-sm font-medium">21 March 2025</p>
+                                        </div>
+                                        <div>
+                                          <button class="btn btn-primary">Completed</button>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="bg-[#F4F7FF] space-y-2 rounded-2xl p-2">
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-24 text-[#00303C]">CloudSync</p>
+                                      <h2 class="font-medium text-2xl text-[#00303C]">Add Dark Mode</h2>
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-72">Store the user's preference in localStorage, update CSS variables...</p>
+                                      <!-- second child parent div -->
+                                      <div class="flex flex-row justify-between items-center space-y-2 ">
+                                        <div>
+                                          <p class="text-[12px] font-normal">Deadline</p>
+                                          <p class="text-[#00303C] text-sm font-medium">21 March 2025</p>
+                                        </div>
+                                        <div>
+                                          <button class="btn btn-primary">Completed</button>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="bg-[#F4F7FF] space-y-2 rounded-2xl p-2">
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-24 text-[#00303C]">SwiftPay</p>
+                                      <h2 class="font-medium text-2xl text-[#00303C]">Optimize  Home page</h2>
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-72">Debug using Chrome DevTools, check for overlapping...</p>
+                                      <!-- third child parent div -->
+                                      <div class="flex flex-row justify-between items-center space-y-2 ">
+                                        <div>
+                                          <p class="text-[12px] font-normal">Deadline</p>
+                                          <p class="text-[#00303C] text-sm font-medium">21 March 2025</p>
+                                        </div>
+                                        <div>
+                                          <button class="btn btn-primary">Completed</button>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="bg-[#F4F7FF] space-y-2 rounded-2xl p-2">
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-24 text-[#00303C]">Meta</p>
+                                      <h2 class="font-medium text-2xl text-[#00303C]">Add new emoji 🤲</h2>
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-72">Debug using Chrome DevTools, check for overlapping...</p>
+                                      <!-- fourth child parent div -->
+                                      <div class="flex flex-row justify-between items-center space-y-2 ">
+                                        <div>
+                                          <p class="text-[12px] font-normal">Deadline</p>
+                                          <p class="text-[#00303C] text-sm font-medium">21 March 2025</p>
+                                        </div>
+                                        <div>
+                                          <button class="btn btn-primary">Completed</button>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="bg-[#F4F7FF] space-y-2 rounded-2xl p-2">
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-24 text-[#00303C]">Google LLC</p>
+                                      <h2 class="font-medium text-2xl text-[#00303C]">Integrate OpenAI API </h2>
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-72">Debug using Chrome DevTools, check for overlapping...</p>
+                                      <!-- fifth child parent div -->
+                                      <div class="flex flex-row justify-between items-center space-y-2 ">
+                                        <div>
+                                          <p class="text-[12px] font-normal">Deadline</p>
+                                          <p class="text-[#00303C] text-sm font-medium">21 March 2025</p>
+                                        </div>
+                                        <div>
+                                          <button class="btn btn-primary">Completed</button>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="bg-[#F4F7FF] space-y-2 rounded-2xl p-2">
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-24 text-[#00303C]">Glassdoar</p>
+                                      <h2 class="font-medium text-2xl text-[#00303C]">Improve Job searching </h2>
+                                      <p class="bg-white rounded-lg text-sm font-normal p-2 max-w-72">Debug using Chrome DevTools, check for overlapping...</p>
+                                      <!-- sixth child parent div -->
+                                      <div class="flex flex-row justify-between items-center space-y-2 ">
+                                        <div>
+                                          <p class="text-[12px] font-normal">Deadline</p>
+                                          <p class="text-[#00303C] text-sm font-medium">21 March 2025</p>
+                                        </div>
+                                        <div>
+                                          <button class="btn btn-primary">Completed</button>
+                                        </div>
+                                       </div>
+                                    </div>
+                                   </div>
+                                  </div>
+                                 <!-- Activity Log Section -->
+                                  <div class="border border-red-800 mt-2 w-1/5 bg-white rounded-2xl space-y-4">
+                                      <div class="flex flex-row gap-4 justify-center mt-3">
+                                        <div>
+                                          <img src="../assets/activity.png" alt="">
+                                        </div>
+                                        <div>
+                                          <p>Activity Log</p>
+                                        </div>
+                                      </div>
+                                      <div>
+                                        <button class="btn btn-primary ml-16">Clear History</button>
+                                      </div>
+                                  </div>
+                                </div>
                  </section>
+                     
+                      
+                    
                </main>
 </body>
 </html>
