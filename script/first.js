@@ -33,14 +33,16 @@ function disableButton1() {
                     const container = document.getElementById('active')
                     const p =document.createElement('p');
                     p.classList.add("new")
-                   p.innerText = `
-                   You have completed your first task 01 March at 5.30pm 
-                   `
-                   container.appendChild(p);
+                    const now = new Date();
+                    const formattedTime = now.toLocaleTimeString('en-BD', { 
+                        hour: '2-digit', 
+                         minute: '2-digit', 
+                         hour12: true 
+                    });
+                        p.innerText = `You have completed the task Fix Mobile Button Issue at ${formattedTime}`;
+                container.appendChild(p);
                 } 
-                // else {
-                //     document.getElementById('btn-1').setAttribute("disabled",true);
-                // }
+                
             }
 
             // for btn-2
@@ -64,14 +66,16 @@ function disableButton2() {
                     const container = document.getElementById('active')
                     const p =document.createElement('p');
                     p.classList.add("new")
-                   p.innerText = `
-                   You have completed your first task 01 March at 5.30pm 
-                   `
-                   container.appendChild(p);
+                    const now = new Date();
+                    const formattedTime = now.toLocaleTimeString('en-BD', { 
+                        hour: '2-digit', 
+                         minute: '2-digit', 
+                         hour12: true 
+                    });
+                        p.innerText = `You have completed the task Add Dark Mode at ${formattedTime}`;
+                container.appendChild(p);
                 } 
-                // else {
-                //     document.getElementById('btn-2').setAttribute("disabled",true);
-                // }
+                
             }
 
             // For Btn-3
@@ -95,14 +99,16 @@ function disableButton3() {
                     const container = document.getElementById('active')
                     const p =document.createElement('p');
                     p.classList.add("new")
-                   p.innerText = `
-                   You have completed your first task 01 March at 5.30pm 
-                   `
-                   container.appendChild(p);
+                    const now = new Date();
+                    const formattedTime = now.toLocaleTimeString('en-BD', { 
+                        hour: '2-digit', 
+                         minute: '2-digit', 
+                         hour12: true 
+                    });
+                        p.innerText = `You have completed the task Optimize Home page at ${formattedTime}`;
+                container.appendChild(p);
                 } 
-                // else {
-                //     document.getElementById('btn-3').setAttribute("disabled",true);
-                // }
+                
             }
             // For Btn-4
             document.getElementById('btn-4').addEventListener('click',function(event){ 
@@ -125,14 +131,16 @@ function disableButton4() {
                     const container = document.getElementById('active')
                     const p =document.createElement('p');
                     p.classList.add("new")
-                   p.innerText = `
-                   You have completed your first task 01 March at 5.30pm 
-                   `
-                   container.appendChild(p);
+                    const now = new Date();
+                    const formattedTime = now.toLocaleTimeString('en-BD', { 
+                        hour: '2-digit', 
+                         minute: '2-digit', 
+                         hour12: true 
+                    });
+                        p.innerText = `You have completed the task Add new emoji 🤲 at ${formattedTime}`;
+                container.appendChild(p);
                 } 
-                // else {
-                //     document.getElementById('btn-4').setAttribute("disabled",true);
-                // }
+                
             }
             // For Btn-5
             document.getElementById('btn-5').addEventListener('click',function(event){ 
@@ -155,14 +163,16 @@ function disableButton5() {
                     const container = document.getElementById('active')
                     const p =document.createElement('p');
                     p.classList.add("new")
-                   p.innerText = `
-                   You have completed your first task 01 March at 5.30pm 
-                   `
-                   container.appendChild(p);
+                    const now = new Date();
+                    const formattedTime = now.toLocaleTimeString('en-BD', { 
+                        hour: '2-digit', 
+                         minute: '2-digit', 
+                         hour12: true 
+                    });
+                        p.innerText = `You have completed the task Integrate OpenAI API at ${formattedTime}`;
+                container.appendChild(p);
                 } 
-                // else {
-                //     document.getElementById('btn-5').setAttribute("disabled",true);
-                // }
+                
             }
             // For Btn-4
             document.getElementById('btn-6').addEventListener('click',function(event){ 
@@ -177,7 +187,7 @@ function disableButton6() {
                 let convertedCompleteTask = parseInt(completeTask.innerText);
             
                 if (confirm("Board Updated Successfully")) {
-                    if(confirm('Congrats Vaiya')){
+                    if(confirm('Congrats!!! You have completed all the current task.')){
                         document.getElementById('btn-6').setAttribute("disabled",true);
                         convertedTaskNumber--;
                         assignTaskNumber.innerText = convertedTaskNumber;
@@ -187,7 +197,7 @@ function disableButton6() {
                         const p =document.createElement('p');
                         p.classList.add("new")
                         const now = new Date();
-                        const formattedTime = now.toLocaleTimeString('en-US', { 
+                        const formattedTime = now.toLocaleTimeString('en-BD', { 
                             hour: '2-digit', 
                              minute: '2-digit', 
                              hour12: true 
