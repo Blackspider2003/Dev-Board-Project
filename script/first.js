@@ -37,6 +37,7 @@ function disableButton1() {
                     const formattedTime = now.toLocaleTimeString('en-BD', { 
                         hour: '2-digit', 
                          minute: '2-digit', 
+                         second: '2-digit',
                          hour12: true 
                     });
                         p.innerText = `You have completed the task Fix Mobile Button Issue at ${formattedTime}`;
@@ -70,6 +71,7 @@ function disableButton2() {
                     const formattedTime = now.toLocaleTimeString('en-BD', { 
                         hour: '2-digit', 
                          minute: '2-digit', 
+                         second: '2-digit',
                          hour12: true 
                     });
                         p.innerText = `You have completed the task Add Dark Mode at ${formattedTime}`;
@@ -102,7 +104,8 @@ function disableButton3() {
                     const now = new Date();
                     const formattedTime = now.toLocaleTimeString('en-BD', { 
                         hour: '2-digit', 
-                         minute: '2-digit', 
+                         minute: '2-digit',
+                         second: '2-digit', 
                          hour12: true 
                     });
                         p.innerText = `You have completed the task Optimize Home page at ${formattedTime}`;
@@ -134,7 +137,8 @@ function disableButton4() {
                     const now = new Date();
                     const formattedTime = now.toLocaleTimeString('en-BD', { 
                         hour: '2-digit', 
-                         minute: '2-digit', 
+                         minute: '2-digit',
+                         second: '2-digit', 
                          hour12: true 
                     });
                         p.innerText = `You have completed the task Add new emoji 🤲 at ${formattedTime}`;
@@ -166,7 +170,8 @@ function disableButton5() {
                     const now = new Date();
                     const formattedTime = now.toLocaleTimeString('en-BD', { 
                         hour: '2-digit', 
-                         minute: '2-digit', 
+                         minute: '2-digit',
+                         second: '2-digit', 
                          hour12: true 
                     });
                         p.innerText = `You have completed the task Integrate OpenAI API at ${formattedTime}`;
@@ -199,7 +204,8 @@ function disableButton6() {
                         const now = new Date();
                         const formattedTime = now.toLocaleTimeString('en-BD', { 
                             hour: '2-digit', 
-                             minute: '2-digit', 
+                             minute: '2-digit',
+                             second: '2-digit', 
                              hour12: true 
                         });
                             p.innerText = `You have completed the task Improve Job searching at ${formattedTime}`;
